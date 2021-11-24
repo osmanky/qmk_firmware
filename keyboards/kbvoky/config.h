@@ -50,6 +50,21 @@
 #define TAPPING_TERM 200
 
 #define PERMISSIVE_HOLD
+// Shamelessly stolen mouse key settings from @pierrechevalier83 //
+
+// Set the mouse settings to a comfortable speed/accuracy trade-off
+// Assume the screen refresh rate is 60 Hz or higher
+// The default is 50. This makes the mouse ~3 times faster and more accurate
+// #undef to override default settings
+#undef MOUSEKEY_INTERVAL
+#define MOUSEKEY_INTERVAL 16
+// The default is 20. Since we made the mouse about 3 times faster with the previous setting,
+// give it more time to accelerate to max speed to retain precise control over short distances.
+#undef MOUSEKEY_TIME_TO_MAX
+#define MOUSEKEY_TIME_TO_MAX 40
+// The default is 300. Let's try and make this as low as possible while keeping the cursor responsive
+#undef MOUSEKEY_DELAY
+#define MOUSEKEY_DELAY 100
 
 #define IGNORE_MOD_TAP_INTERRUPT
 #ifdef RGB_DI_PIN

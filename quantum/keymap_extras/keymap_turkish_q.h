@@ -154,3 +154,4 @@
 #define TR_SS   ALGR(TR_S)    // ß
 #define TR_ACUT ALGR(TR_SCED) // ´ (dead)
 #define TR_GRV  ALGR(TR_COMM) // ` (dead)
+
