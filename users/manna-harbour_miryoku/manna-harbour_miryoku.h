@@ -39,3 +39,4 @@ enum layers { BASE, MBO, MEDIA, NAV, MOUSE, SYM, NUM, FUN };
 #define U_CUT S(KC_DEL)
 #define U_UND KC_UNDO
 #endif
+
