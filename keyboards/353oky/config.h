@@ -47,7 +47,7 @@
 #define PREVENT_STUCK_MODIFIERS
 #define USB_MAX_POWER_CONSUMPTION 50
 
-#define TAPPING_TERM 200
+#define TAPPING_TERM 300
 
 #define PERMISSIVE_HOLD
 // Shamelessly stolen mouse key settings from @pierrechevalier83 //
